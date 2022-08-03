@@ -29,7 +29,7 @@ int sum_array_elements(int integers[], int length){
 }
 
 int sum_if_palindrome(int integers[], int length){
-    if (length < 1 || sum_array_elements(integers,length) < 0){
+    if (length < 1){
         return -1;
     } else if(is_palindrome(integers,length) == false) {
         return -2;

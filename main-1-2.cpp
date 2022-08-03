@@ -14,3 +14,4 @@ int main(int argc,char **argv)
 	std :: cout <<  is_identity(array) << std :: endl;
 	return 0 ;
 }
+

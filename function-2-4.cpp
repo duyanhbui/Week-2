@@ -25,7 +25,7 @@ int sum_min_max(int integers[], int length){
     int max = array_max(integers,length);
     int min = array_min(integers,length);
     int sum = min + max;
-    if (length < 1 || min < 0 || max < 0 ){
+    if (length < 1){
         return -1;
     }else{
         return sum;

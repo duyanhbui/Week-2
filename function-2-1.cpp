@@ -18,6 +18,7 @@ void print_binary_str(std::string decimal_number){
     };
 
     std :: string binary_str = std :: to_string(binaryNum);
-    std :: cout << binary_str;
+    std :: cout << binary_str << "\n";
+    
 
 }
