@@ -11,10 +11,7 @@ void print_summed(int array1[3][3],int array2[3][3]){
             for(int j = 0; j < 3; j++){
                 std :: cout << array1[i][j] << " ";
             
-        }
-        if (i < 2){
-            std :: cout << "\n";
-        }
+        } std :: cout << "\n";
     }
 }
 

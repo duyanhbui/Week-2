@@ -12,8 +12,6 @@ void print_scaled(int array[3][3],int scale){
                 std :: cout << array[i][j] << " ";
             
         }
-        if (i < 2){
             std :: cout << "\n";
         }
-    }
 }
