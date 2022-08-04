@@ -9,15 +9,17 @@ int is_identity(int array[10][10]){
             is_identity = 0;
             return is_identity;                
         }
-       
-    int zeros[10][10] = {0};
-    if(array == zeros){
-        is_identity = 0; 
-    } else{
-        return is_identity;
     }
-
+    for(int i = 0; i < 10; i++){
+        for(int j = 0; j < 10; j++){
+            if (array[i][j] != 0){
+                is_identity = 0;
+                return is_identity;
+            }
+            
+            }
+        }
     return is_identity;
 
-    }
+    
 }
